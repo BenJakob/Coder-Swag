@@ -10,11 +10,12 @@ import Foundation
 
 struct Category {
     
-    private(set) var name: String
+    private(set) var title: String
     private(set) var image: String
     
     init(name: String, image: String) {
-        self.name = name
+        self.title = name
         self.image = image
     }
+    
 }
